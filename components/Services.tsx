@@ -42,7 +42,7 @@ export default function Services({ onBook }: ServicesProps) {
     <section id="servicos" className="py-24 bg-background-color overflow-hidden">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold text-white mb-6">
+          <h2 className="text-5xl font-bold text-primary mb-6">
             {/* Alterado: text-primary */}
             Nossos <span className="text-primary">Serviços</span>
           </h2>
@@ -67,7 +67,7 @@ export default function Services({ onBook }: ServicesProps) {
           {services.map((service, index) => (
             <SwiperSlide key={service.id}>
               {/* Alterado: hover:border-primary/50 */}
-              <div className="glass-card group rounded-none overflow-hidden border border-zinc-900 hover:border-primary/50 transition-all duration-500 bg-zinc-950">
+              <div className="glass-card group rounded-none overflow-hidden border border-zinc-900 hover:border-primary/50 transition-all duration-500 bg-zinc-550">
                 {/* Imagem do Serviço */}
                 <div className="relative h-64 overflow-hidden">
                   <div className={`absolute inset-0 z-10 transition-colors duration-700 ${
@@ -95,7 +95,7 @@ export default function Services({ onBook }: ServicesProps) {
                   {/* Alterado: group-hover:bg-primary e group-hover:border-primary */}
                   <button 
                     onClick={() => onBook(null, service.id)}
-                    className="w-full py-4 border border-zinc-800 bg-transparent text-white group-hover:bg-primary group-hover:text-black group-hover:border-primary transition-all uppercase text-xs tracking-[0.2em] font-black"
+                    className="w-full py-4 border border-zinc-800 bg-transparent text-white group-hover:bg-primary group-hover:text-white group-hover:border-primary transition-all uppercase text-xs tracking-[0.2em] font-black"
                   >
                     Agendar Agora
                   </button>
