@@ -71,7 +71,7 @@ export default function Services({ onBook }: ServicesProps) {
                 {/* Imagem do Serviço */}
                 <div className="relative h-64 overflow-hidden">
                   <div className={`absolute inset-0 z-10 transition-colors duration-700 ${
-                    activeIndex === index ? 'bg-zinc-600' : 'bg-zinc-950 md:group-hover:bg-zinc-600'
+                    activeIndex === index ? 'bg-black/10' : 'bg-black/60 md:group-hover:bg-black/10'
                   }`}></div>
                   <img 
                     src={service.image_url} 
