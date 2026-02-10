@@ -92,7 +92,7 @@ export default function Barbers({ onBook }: BarbersProps) {
                         {/* BOTÃO DE AGENDAMENTO (CHAMA O MODAL) - Alterado para bg-primary */}
                         <button 
                           onClick={() => onBook(barber.id)}
-                          className="flex-1 bg-primary text-black px-4 py-3 text-sm font-bold uppercase hover:bg-white transition-all text-center"
+                          className="flex-1 bg-primary text-white px-4 py-3 text-sm font-bold hover:text-primary uppercase hover:bg-white transition-all text-center"
                         >
                           Agendar Horário
                         </button>
