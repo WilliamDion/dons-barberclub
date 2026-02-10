@@ -11,7 +11,7 @@ export default function Contact() {
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`
 
   return (
-    <section id="ContactInfo" className="py-24 bg-background-color text-white">
+    <section id="ContactInfo" className="py-24 bg-background-color text-primary">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row gap-16 items-start">
           
