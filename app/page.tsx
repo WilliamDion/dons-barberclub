@@ -24,14 +24,14 @@ export default function Home() {
         <div className="relative z-10 text-center px-4 flex flex-col items-center">
           <div className="mb-6 animate-fade-in">
             <img 
-              src="https://wwuclhmpvfjrtbfwoaub.supabase.co/storage/v1/object/public/Servicos/logo%20dvargas.png" 
+              src="https://rrwxenfxczyiqdjhhxem.supabase.co/storage/v1/object/public/logos/donsbarber.jpg" 
               alt="Logo" 
               className="w-40 h-40 md:w-52 md:h-52 object-contain"
             />
           </div>
 
-          <h1 className="text-4xl md:text-5xl font-bold text-white tracking-tighter mb-6">
-            BAHRBEARIA<span className="text-primary inline-block hover:scale-110 transition-transform"></span>
+          <h1 className="text-4xl md:text-5xl font-bold text-primary tracking-tighter mb-6">
+            Don's Barber<span className="text-primary inline-block hover:scale-110 transition-transform">Club</span>
           </h1>
 
           <div className="flex flex-col md:flex-row gap-4 justify-center">
@@ -40,7 +40,7 @@ export default function Home() {
               className="bg-primary text-black font-bold px-8 py-4 rounded-sm hover:bg-white transition-all uppercase text-sm tracking-widest text-center">
                 Agendar Horário
             </button>
-            <a href="#servicos" className="border border-zinc-700 hover:border-transparent text-white font-bold px-8 py-4 rounded-sm hover:bg-mid transition-all uppercase text-sm tracking-widest text-center">
+            <a href="#servicos" className="border border-zinc-700 hover:border-transparent text-primary font-bold px-8 py-4 rounded-sm hover:bg-mid transition-all uppercase text-sm tracking-widest text-center">
               Ver Serviços
             </a>
           </div>
