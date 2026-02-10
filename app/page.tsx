@@ -37,10 +37,10 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <button 
               onClick={() => openBooking()}
-              className="bg-primary text-black font-bold px-8 py-4 rounded-sm hover:bg-white transition-all uppercase text-sm tracking-widest text-center">
+              className="bg-primary text-white font-bold px-8 py-4 hover:text-primary rounded-sm hover:bg-white transition-all uppercase text-sm tracking-widest text-center">
                 Agendar Horário
             </button>
-            <a href="#servicos" className="border border-zinc-700 hover:border-transparent text-primary font-bold px-8 py-4 rounded-sm hover:bg-mid transition-all uppercase text-sm tracking-widest text-center">
+            <a href="#servicos" className="border border-zinc-700 hover:border-transparent text-primary font-bold px-8 py-4 hover:text-white rounded-sm hover:bg-mid transition-all uppercase text-sm tracking-widest text-center">
               Ver Serviços
             </a>
           </div>
