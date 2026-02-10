@@ -26,11 +26,11 @@ export default function About() {
           </p>
           
           <ul className="space-y-3">
-            <li className="flex items-center text-zinc-300">
+            <li className="flex items-center text-zinc-400">
               {/* Check - Alterado: text-primary */}
               <span className="text-primary mr-2">✓</span> Especialistas em cortes masculinos
             </li>
-            <li className="flex items-center text-zinc-300">
+            <li className="flex items-center text-zinc-400">
               {/* Check - Alterado: text-primary */}
               <span className="text-primary mr-2">✓</span> Localização privilegiada perto do centro
             </li>
