@@ -86,7 +86,7 @@ export default function Services({ onBook }: ServicesProps) {
                   <div className="flex justify-between items-start mb-4">
                     <h3 className="text-2xl font-bold tracking-tight text-white">{service.name}</h3>
                     {/* Alterado: text-primary */}
-                    <p className="text-primary font-mono text-xl font-bold">R$ {Number(service.price).toFixed(2)}</p>
+                    <p className="text-white font-mono text-xl font-bold">R$ {Number(service.price).toFixed(2)}</p>
                   </div>
                   <p className="text-zinc-500 text-sm leading-relaxed mb-8 h-12 line-clamp-2">
                     {service.description}
