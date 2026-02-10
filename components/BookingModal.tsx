@@ -134,7 +134,7 @@ export default function BookingModal({ initialServiceId, initialBarberId, isOpen
           <div>
             <h2 className="text-white font-black text-2xl uppercase tracking-tighter">Agendamento</h2>
             <div className="text-primary text-[10px] font-bold uppercase tracking-widest flex items-center gap-2 mt-1">
-              <CheckCircle2 size={14} className="text-primary" /> 
+              <CheckCircle2 size={14} className="text-white" /> 
               <span>{selectedServiceIds.length} serviços selecionados</span>
             </div>
           </div>
@@ -158,9 +158,9 @@ export default function BookingModal({ initialServiceId, initialBarberId, isOpen
                       setSelectedServiceIds(prev => isSelected ? prev.filter(i => i !== id) : [...prev, id]);
                       setConflictError(false);
                     }}
-                    className={`flex justify-between items-center p-4 border-2 transition-all ${isSelected ? 'border-primary bg-primary/10' : 'border-zinc-900 bg-zinc-900/30 hover:border-zinc-700'}`}>
+                    className={`flex justify-between items-center p-4 border-2 transition-all ${isSelected ? 'border-white bg-primary/10' : 'border-zinc-900 bg-zinc-900/30 hover:border-zinc-700'}`}>
                     <div className="text-left">
-                      <p className={`font-black text-sm uppercase ${isSelected ? 'text-primary' : 'text-zinc-300'}`}>{service.name}</p>
+                      <p className={`font-black text-sm uppercase ${isSelected ? 'text-white' : 'text-zinc-300'}`}>{service.name}</p>
                       <div className="text-[10px] text-zinc-500 font-bold flex items-center gap-1 mt-1">
                         <Clock size={12} /> <span>{service.duration} MIN</span>
                       </div>
@@ -221,10 +221,10 @@ export default function BookingModal({ initialServiceId, initialBarberId, isOpen
             )}
 
             {/* Resumo Financeiro */}
-            <div className="mt-4 p-4 bg-black border-l-4 border-primary">
+            <div className="mt-4 p-4 bg-black border-l-4 border-white">
               <div className="flex justify-between text-[10px] font-bold uppercase text-zinc-500">
                 <span>Duração: {totalDuration} min</span>
-                <span className="text-primary text-sm">Total: R$ {totalPrice.toFixed(2)}</span>
+                <span className="text-white text-sm">Total: R$ {totalPrice.toFixed(2)}</span>
               </div>
             </div>
 
@@ -234,7 +234,7 @@ export default function BookingModal({ initialServiceId, initialBarberId, isOpen
               disabled={loading || !isFormValid}
               className={`w-full p-4 font-black uppercase text-xs transition-all duration-300 rounded flex items-center justify-center min-h-[50px] ${
                 isFormValid && !loading
-                ? 'bg-primary text-black hover:bg-white shadow-lg active:scale-[0.98]' 
+                ? 'bg-primary text-white hover:bg-white hover:text-black shadow-lg active:scale-[0.98]' 
                 : 'bg-zinc-800 text-zinc-500 cursor-not-allowed'
               }`}
             >
