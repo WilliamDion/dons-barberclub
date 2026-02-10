@@ -133,8 +133,8 @@ export default function BookingModal({ initialServiceId, initialBarberId, isOpen
         <div className="p-6 border-b border-zinc-800 flex justify-between items-center bg-zinc-900/50">
           <div>
             <h2 className="text-white font-black text-2xl uppercase tracking-tighter">Agendamento</h2>
-            <div className="text-primary text-[10px] font-bold uppercase tracking-widest flex items-center gap-2 mt-1">
-              <CheckCircle2 size={14} className="text-white" /> 
+            <div className="text-zinc-500 text-[10px] font-bold uppercase tracking-widest flex items-center gap-2 mt-1">
+              <CheckCircle2 size={14} className="text-zinc-500" /> 
               <span>{selectedServiceIds.length} serviços selecionados</span>
             </div>
           </div>
