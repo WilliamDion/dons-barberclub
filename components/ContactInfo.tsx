@@ -33,7 +33,7 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="flex items-center group"
               >
-                <div className="w-14 h-14 bg-mid border border-zinc-800 flex items-center justify-center group-hover:border-primary transition-colors">
+                <div className="w-14 h-14 bg-white border border-zinc-800 flex items-center justify-center group-hover:border-primary transition-colors">
                   <FaWhatsapp className="text-2xl text-primary" />
                 </div>
                 <div className="ml-6">
@@ -49,7 +49,7 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="flex items-center group"
               >
-                <div className="w-14 h-14 bg-mid border border-zinc-800 flex items-center justify-center group-hover:border-primary transition-colors">
+                <div className="w-14 h-14 bg-white border border-zinc-800 flex items-center justify-center group-hover:border-primary transition-colors">
                   <FaInstagram className="text-2xl text-primary" />
                 </div>
                 <div className="ml-6">
@@ -65,7 +65,7 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="flex items-center group"
               >
-                <div className="w-14 h-14 bg-mid border border-zinc-800 flex items-center justify-center group-hover:border-primary transition-colors">
+                <div className="w-14 h-14 bg-white border border-zinc-800 flex items-center justify-center group-hover:border-primary transition-colors">
                   <FaMapMarkerAlt className="text-2xl text-primary" />
                 </div>
                 <div className="ml-6">
@@ -78,7 +78,7 @@ export default function Contact() {
 
               {/* Horários */}
               <div className="flex items-center">
-                <div className="w-14 h-14 bg-mid border border-zinc-800 flex items-center justify-center">
+                <div className="w-14 h-14 bg-white border border-zinc-800 flex items-center justify-center">
                   <FaClock className="text-2xl text-primary" />
                 </div>
                 <div className="ml-6">
@@ -95,7 +95,7 @@ export default function Contact() {
             {/* Moldura Deslocada - Alterado para border-primary */}
             <div className="absolute -bottom-4 -right-4 w-full h-full border-2 border-primary rounded-sm z-0"></div>
             
-            <div className="relative z-10 w-full h-full bg-zinc-900 overflow-hidden rounded-sm grayscale invert contrast-[0.9] hover:grayscale-0 transition-all duration-700">
+            <div className="relative z-10 w-full h-full bg-zinc-900 overflow-hidden rounded-sm grayscale contrast-[0.9] hover:grayscale-0 transition-all duration-700">
                <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110581.02640819282!2d-50.28322285664061!3d-29.989283799999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951872cff4006cc9%3A0xfb7ff78925109796!2sDONS%20BARBER%20CLUB!5e0!3m2!1spt-BR!2sbr!4v1770698616679!5m2!1spt-BR!2sbr" 
                 width="100%" 
