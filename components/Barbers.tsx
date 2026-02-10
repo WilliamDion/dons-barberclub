@@ -51,7 +51,7 @@ export default function Barbers({ onBook }: BarbersProps) {
     >
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-white uppercase tracking-tighter">A Equipe</h2>
+          <h2 className="text-4xl font-bold text-primary uppercase tracking-tighter">A Equipe</h2>
         </div>
 
         {barbers.length > 0 ? (
